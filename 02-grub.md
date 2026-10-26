@@ -10,5 +10,5 @@
 Файл `/etc/default/grub` — это лишь шаблон с настройками. Рабочий файл, который читает загрузчик при старте — это `/boot/grub2/grub.cfg`. Команда `grub2-mkconfig` пересобирает рабочий файл на основе шаблона. Без неё меню загружалось бы со старыми настройками.
 
 ## Скриншоты
-*   Скриншот файла `/etc/default/grub`: `screenshots/02-grub-config.png`
-*   Скриншот меню GRUB при загрузке: `screenshots/02-grub-menu.png`
+![Скриншот настроек GRUB](screenshots/02-grub-config.png)
+![Меню GRUB при загрузке](screenshots/02-grub-menu.png)
